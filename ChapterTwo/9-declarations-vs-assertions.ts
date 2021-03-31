@@ -55,7 +55,8 @@ const el = body as someRandom9;
 // HTMLButtonElement is subtype of EventTarget...so ok
 // The escape hatch "convert to unknown first" works because all types are subtypes of unknown
 
-const elProper9 = body as unknown as someRandom9; // OK...but dont do lol
+const elProper9 = body as u
+nknown as someRandom9; // OK...but dont do lol
 
 // IMPORTANT THINGS!
 // 1. Prefer type declarations
